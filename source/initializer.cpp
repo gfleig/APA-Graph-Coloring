@@ -1,7 +1,7 @@
 #include "initializer.hpp"
 
 /*builds the adjacency matrix. inputs are filename
-and IO int "matrix" to be allocated*/
+and IO number of vertices. returns the matrix*/
 int** buildAdjMatrix(const char* filename, int* nVertices)
 {
     using namespace std;
